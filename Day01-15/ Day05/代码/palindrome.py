@@ -16,5 +16,6 @@ while temp > 0:
     temp //= 10
 if num == num2:
     print('%d是回文数' % num)
-else:
+    break
+其他：
     print('%d不是回文数' % num)
